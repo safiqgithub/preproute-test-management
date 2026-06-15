@@ -26,7 +26,7 @@ const schema = z.object({
 type FormData = z.infer<typeof schema>;
 
 const TEST_TYPES = [
-  { value: 'chapter_wise', label: 'Chapter Wise' },
+  { value: 'chapterwise', label: 'Chapter Wise' },
   { value: 'pyq', label: 'PYQ' },
   { value: 'mock_test', label: 'Mock Test' },
 ];
